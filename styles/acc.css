@@ -1,0 +1,73 @@
+div.accesibilidad{
+  width: 100%;
+  height:100%;  
+}
+#navB{
+       display: flex;
+       justify-content: flex-end;
+       margin-right: 20%;
+    }
+    #navB li{margin-left: 10%;}
+
+    #navU{ display: flex;
+        justify-content: flex-end;
+        margin-right: 20%;
+     }
+   
+     #navU li{margin-left: 10%;}
+     #navA{ display: flex;
+        justify-content: flex-end;
+        margin-right: 20%;}
+        #navA li{margin-left: 10%;}
+
+li{display: flex;
+display:inline;}
+
+.login{width:100%;height:200px ;/*logo*/
+
+   }
+   #formularioLogin{background-color: grey;margin-top: -5%;}
+
+
+.Navbar__brand-logo{width: 100%;}
+
+div.card{
+    box-shadow: 7px 8px 12px 22px grey;
+width: 50%;
+margin-left: 40%;
+}
+
+.home{background-color: teal;}
+
+/*@media (max-width: 700px) {*/
+  @media only screen and (max-width: 1000px) and (min-width: 400px) {
+  
+   
+
+      table {
+          width:100%;
+      }
+      thead {
+          display: none;
+      }
+      tr:nth-of-type(2n) {
+          background-color: inherit;
+      }
+      tr td:first-child {
+          background: #f0f0f0;
+          font-weight:bold;
+          font-size:1.3em;
+      }
+      tbody td {
+          display: block;
+          text-align:center;
+      }
+      tbody td:before {
+          content: attr(data-th);
+          display: block;
+          text-align:center;
+      }
+}
+    
+ 
+

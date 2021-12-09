@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  #main {
+    height: 100vh;
+    padding: 0px 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0px 10px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  h2,
+  p {
+    color: #fff;
+  }
